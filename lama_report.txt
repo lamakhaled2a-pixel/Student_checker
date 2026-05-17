@@ -1,0 +1,6 @@
+Student Performance Report
+
+Student Name: Lama 
+Score: 77.0
+Status: Passed
+Student Class: B
