@@ -1,6 +1,7 @@
 Student Performance Report
 
-Student Name: Lama 
-Score: 77.0
-Status: Passed
-Student Class: B
+Student Name: lama 
+Score: 99.0
+Status: Excellent
+Student Class: A
+advice :well done , keep up the good work :)

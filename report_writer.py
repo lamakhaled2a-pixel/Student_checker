@@ -1,10 +1,11 @@
-def build_report(student_name, score, status,student_class):
+def build_report(student_name, score, status,student_class,advice):
     report = f"""Student Performance Report
 
 Student Name: {student_name} 
 Score: {score}
 Status: {status}
 Student Class: {student_class}
+advice :{advice}
 """
     return report
 

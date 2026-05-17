@@ -1,5 +1,6 @@
 from grading import is_valid_score, classify_score
 from report_writer import build_report, save_report
+from advice import advice_generate
 
 
 try:
@@ -18,7 +19,8 @@ try:
                     else:
                          print("Invalid class ! Please enter A,B OR C only ")
                 status=classify_score(score)
-                report=build_report(student_name,score,status,student_class,)
+                advice=advice_generate(score)
+                report=build_report(student_name,score,status,student_class,advice)
                 filename= save_report(student_name, report)
 
                 print(report)
